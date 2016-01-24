@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{51E96EA1-E156-4D01-B8DD-6930BA022750}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TestAutomationResults", "Databases\TestAutomationResults\TestAutomationResults.sqlproj", "{A56197E3-47D2-477A-B15F-B1CDFA9B3CFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A56197E3-47D2-477A-B15F-B1CDFA9B3CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56197E3-47D2-477A-B15F-B1CDFA9B3CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A56197E3-47D2-477A-B15F-B1CDFA9B3CFE} = {51E96EA1-E156-4D01-B8DD-6930BA022750}
+	EndGlobalSection
+EndGlobal

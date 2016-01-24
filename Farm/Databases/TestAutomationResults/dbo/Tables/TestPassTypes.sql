@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[TestPassTypes] (
+    [id]       INT          IDENTITY (1, 1) NOT NULL,
+    [TestType] VARCHAR (50) NOT NULL,
+    CONSTRAINT [PK_TestTypes] PRIMARY KEY CLUSTERED ([id] ASC) WITH (FILLFACTOR = 40),
+    CONSTRAINT [UX_TestPassTypes] UNIQUE NONCLUSTERED ([TestType] ASC) WITH (FILLFACTOR = 40)
+);
+
